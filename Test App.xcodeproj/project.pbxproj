@@ -14,6 +14,10 @@
 		B544E7081A1BB3DD0078B8E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B544E7071A1BB3DD0078B8E5 /* Images.xcassets */; };
 		B544E70B1A1BB3DD0078B8E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B544E7091A1BB3DD0078B8E5 /* LaunchScreen.xib */; };
 		B544E7171A1BB3DE0078B8E5 /* Test_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B544E7161A1BB3DE0078B8E5 /* Test_AppTests.m */; };
+		B544E7261A1BB4280078B8E5 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B544E7211A1BB4280078B8E5 /* JVFloatLabeledTextField.m */; };
+		B544E7271A1BB4280078B8E5 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B544E7231A1BB4280078B8E5 /* JVFloatLabeledTextView.m */; };
+		B544E7281A1BB4280078B8E5 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = B544E7251A1BB4280078B8E5 /* NSString+TextDirectionality.m */; };
+		B544E72B1A1BB4BA0078B8E5 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B544E72A1A1BB4BA0078B8E5 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		B544E7101A1BB3DE0078B8E5 /* Test AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B544E7151A1BB3DE0078B8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B544E7161A1BB3DE0078B8E5 /* Test_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_AppTests.m; sourceTree = "<group>"; };
+		B544E7201A1BB4280078B8E5 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		B544E7211A1BB4280078B8E5 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		B544E7221A1BB4280078B8E5 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		B544E7231A1BB4280078B8E5 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		B544E7241A1BB4280078B8E5 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		B544E7251A1BB4280078B8E5 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		B544E7291A1BB4B90078B8E5 /* Test App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test App-Bridging-Header.h"; sourceTree = "<group>"; };
+		B544E72A1A1BB4BA0078B8E5 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +97,18 @@
 				B544E6FF1A1BB3DD0078B8E5 /* AppDelegate.m */,
 				B544E7011A1BB3DD0078B8E5 /* ViewController.h */,
 				B544E7021A1BB3DD0078B8E5 /* ViewController.m */,
+				B544E7201A1BB4280078B8E5 /* JVFloatLabeledTextField.h */,
+				B544E7211A1BB4280078B8E5 /* JVFloatLabeledTextField.m */,
+				B544E7221A1BB4280078B8E5 /* JVFloatLabeledTextView.h */,
+				B544E7231A1BB4280078B8E5 /* JVFloatLabeledTextView.m */,
+				B544E7241A1BB4280078B8E5 /* NSString+TextDirectionality.h */,
+				B544E7251A1BB4280078B8E5 /* NSString+TextDirectionality.m */,
 				B544E7041A1BB3DD0078B8E5 /* Main.storyboard */,
 				B544E7071A1BB3DD0078B8E5 /* Images.xcassets */,
 				B544E7091A1BB3DD0078B8E5 /* LaunchScreen.xib */,
 				B544E6FA1A1BB3DD0078B8E5 /* Supporting Files */,
+				B544E72A1A1BB4BA0078B8E5 /* Test.swift */,
+				B544E7291A1BB4B90078B8E5 /* Test App-Bridging-Header.h */,
 			);
 			path = "Test App";
 			sourceTree = "<group>";
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B544E7261A1BB4280078B8E5 /* JVFloatLabeledTextField.m in Sources */,
 				B544E7031A1BB3DD0078B8E5 /* ViewController.m in Sources */,
+				B544E7281A1BB4280078B8E5 /* NSString+TextDirectionality.m in Sources */,
+				B544E72B1A1BB4BA0078B8E5 /* Test.swift in Sources */,
 				B544E7001A1BB3DD0078B8E5 /* AppDelegate.m in Sources */,
 				B544E6FD1A1BB3DD0078B8E5 /* main.m in Sources */,
+				B544E7271A1BB4280078B8E5 /* JVFloatLabeledTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +367,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test App/Test App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -353,9 +380,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Test App/Test App-Bridging-Header.h";
 			};
 			name = Release;
 		};
