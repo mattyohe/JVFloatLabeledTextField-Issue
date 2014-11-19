@@ -17,9 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Placeholder" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kau-Nq-NxY" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="16" y="28" width="200" height="30"/>
+                                <rect key="frame" x="16" y="28" width="200" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Jd6-LW-dA6"/>
+                                    <constraint firstAttribute="height" constant="44" id="Vc4-GM-LqS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
